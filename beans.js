@@ -20,7 +20,7 @@ else if (typeof define === 'function' && define['amd'])
 else if (typeof exports === 'object')
   exports["Godot"] = Godot;
 
-const Preloader = /** @constructor */ function () { // eslint-disable-line no-unused-vars
+const Preloader = /** @constructor */ function () { // eslint-disable-line no-unused-vars e
 	function getTrackedResponse(response, load_status) {
 		function onloadprogress(reader, controller) {
 			return reader.read().then(function (result) {
